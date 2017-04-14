@@ -27,7 +27,7 @@ JavaScript provides a `typeof` operator that can examine a value and tell you wh
 ```js
 var a;
 typeof a;				// "undefined"
-
+ 
 a = "hello world";
 typeof a;				// "string"
 
