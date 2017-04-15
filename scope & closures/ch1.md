@@ -194,7 +194,17 @@ var c = foo( 2 );
 
 1. Identify all the LHS look-ups (there are 3!).
 
+var c,
+var b,
+foo(a=2)
+
 2. Identify all the RHS look-ups (there are 4!).
+
+foo(),
+a in var b=a,
+a in a +b,
+b in a +b
+
 
 **Note:** See the chapter review for the quiz answers!
 
